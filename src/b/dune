@@ -1,0 +1,5 @@
+(copy_files %{project_root}/bar.ml)
+
+(library
+ (name b)
+ (public_name test.b))

@@ -1,0 +1,10 @@
+(rule
+ (mode (promote (until-clean)))
+ (targets
+   foo.ml
+   bar.ml)
+ (action
+  (progn
+   (run gen)
+   (run mv src/a/foo.ml foo.ml)
+   (run mv src/b/bar.ml bar.ml))))

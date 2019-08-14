@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo 'let foo = "foo"' > src/a/foo.ml
+echo 'let bar = "bar"' > src/b/bar.ml
